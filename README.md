@@ -11,9 +11,9 @@ the project is created using angular-cli
 ###### the problem for me was getting the form to perform a submit in angular 2 template invoking the action url
  I did this in the template
 
-```<form #form class="form-inline" name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-         <input type="hidden" name="cmd" value="_xclick">
-         <input type="hidden" name="business" value="mmusale93@gmail.com">
+`<form #form class="form-inline" name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">`
+`   <input type="hidden" name="cmd" value="_xclick">`
+```<input type="hidden" name="business" value="mmusale93@gmail.com">
          <input type="hidden" name="currency_code" value="USD">
          <input type="hidden" name="item_name" value="Paypal demo charge">
          <input name="item_number" type="hidden" value="0001"/>
