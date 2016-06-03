@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['angular2-paypal.component.css']
 })
 export class Angular2PaypalAppComponent {
-  title = 'angular2-paypal works!';
+  title = 'PayPal Test';
 }
